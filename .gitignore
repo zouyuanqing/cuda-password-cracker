@@ -1,0 +1,24 @@
+# build artifacts
+build/
+*.exe
+*.exp
+*.lib
+*.obj
+*.o
+
+# CUDA intermediates
+*.cudafe1.cpp
+*.cudafe1.stub.c
+*.i
+*.ii
+
+# datasets & test files (large / private — obtain wordlists separately)
+*.txt
+*.zip
+
+# IDE / tooling
+.vs/
+.vscode/
+.codegraph/
+__pycache__/
+*.pyc
